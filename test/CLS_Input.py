@@ -2,7 +2,7 @@ import tensorflow as tf
 
 
 # [ batch, max_len_pos]
-arg_max = tf.constant([[1,2,3,4,5,0],
+arg_max = tf.constant([[1,2,3,4,0,0],
                        [6,7,8,0,0,0],
                        [13,14,15,16,17,18]
                       ])
